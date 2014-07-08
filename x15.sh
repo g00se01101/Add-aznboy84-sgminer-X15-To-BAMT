@@ -2,7 +2,7 @@
 mine stop
 sleep 5
 cd /opt/miners/
-git clone https://github.com/aznboy84/sgminer sgminer-x15mod
+git clone -b v5_0-x15 https://github.com/aznboy84/sgminer sgminer-x15mod
 cd /opt/miners/sgminer-x15mod
 cp /opt/miners/sgminer-4.1.0-sph/ADL_SDK/* /opt/miners/sgminer-x15mod/ADL_SDK/
 make clean
